@@ -16,6 +16,31 @@ public class Task2 {
         name [4]="Esther";
         System.out.println("name "+name[0]);
 
+        System.out.println("_______________");
+        String [] arr=new String[5];
+         arr [0]="This";
+         arr [1]="is";
+         arr [2]="array";
+         arr [3]="of";
+         arr [4]="String";
+        for (int i = 0; i <=4 ; i++) {
+            System.out.print(arr[i]+" ");
+
+        }
+        // replit practice array with for loop
+        int [] num=new int[10];
+        int no=1;
+        for (int i = 0; i < num.length; i++) {
+         num[i]=no+i;
+            System.out.println(num[i]);
+
+        }
+
+
+
+
+
+
 
 
 

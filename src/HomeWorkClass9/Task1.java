@@ -15,29 +15,10 @@ public class Task1 {
         grade[4]= 'E';
         grade[5]= 'F';
         System.out.println("grade: "+grade[1]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
         }
 
 
-        }
 
 
 
