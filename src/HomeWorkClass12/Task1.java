@@ -9,7 +9,7 @@ public class Task1 {
         String str="Urwaa";
         int length=str.length();
         if (!str.isEmpty()) {
-            if(str.length()>=3){
+            if(str.length()>=3&& str.length()%2!=0){ //req ma tha check both
                 int middle=length/2;
                 System.out.println("the middle letter is " +str.charAt(middle));
             }

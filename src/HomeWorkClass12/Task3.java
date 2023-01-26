@@ -28,7 +28,8 @@ public class Task3 {
         String gender=input.next();
         String sugesstedname="";
         if(gender.equalsIgnoreCase("Girl")){
-            sugesstedname= mom.substring(0,2).toUpperCase()+dad.substring(3,6).toUpperCase();
+            sugesstedname= mom.substring(0,2).toUpperCase()+dad.substring(3,6).toUpperCase(); //also can done like this
+            //dad.substring(0,dadsname.length()/2); to know the half
             System.out.println("Suggested name is "+sugesstedname);
         } else if (gender.equalsIgnoreCase("Boy")) {
             sugesstedname=dad.substring(0,3).toUpperCase()+mom.substring(2,4).toUpperCase();
