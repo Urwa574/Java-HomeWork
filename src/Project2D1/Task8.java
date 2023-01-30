@@ -9,6 +9,18 @@ public class Task8 {
             System.out.print(sum+" "); //sum=1,2
             n1=n2;
             n2=sum;
+        }
+        //2nd way and easier shorter
+        int a=0;
+        int b=1;
+        int c;
+
+        for(int i=1; i<=10; i++){
+
+            c=a+b;
+            System.out.print(c+" ");
+            a=b;
+            b=c;
 
         }
     }

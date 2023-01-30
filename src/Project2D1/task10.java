@@ -14,7 +14,16 @@ public class task10 {
         }
         System.out.println(secondNo);
 
-
+//        int highest=0;
+//        int [] arr={5,4,8};
+//        for(int i=0;i<arr.length;i++){
+//            if(arr[i]>highest){
+//                highest=arr[i];
+//            }
+//
+//        }
+//
+//        System.out.println(highest);
 
 
 
