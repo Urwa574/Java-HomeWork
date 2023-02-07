@@ -15,7 +15,10 @@ public class Employee {
          this.salary=salary;
      }
      void printInfo(){
-         System.out.println("the name of employee is "+name+"  department: "+department+"  salary: "+salary);
+         System.out.println("the name of employee is "+name);
+     }
+     void print(){
+         System.out.println(" department: "+department+"  salary: "+salary);
      }
 }
 class Fulltime extends Employee{
@@ -27,7 +30,10 @@ class Fulltime extends Employee{
          this.Yearlybonus=Yearlybonus;
      }
      void fulltime(){
-         System.out.println("full time employee will get yearly bonus "+Yearlybonus+"  after working "+workingHour+" hours");
+         System.out.println("full time employee will get yearly bonus "+Yearlybonus);
+     }
+     void display(){
+         System.out.println("after working "+workingHour+" hours");
      }
 }
 class Parttime extends Fulltime{
