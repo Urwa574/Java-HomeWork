@@ -6,11 +6,12 @@ public class CreditClass {
     on the given balance.
 Create 2 subclasses: Visa and AX. In AX class override method calculate interest.
 Call the method by creating an object of each of the three classes.
-     */
+     */ // i did my task without constructor
+    //with constructors task on java basic
     double balance;
     double interest;
-    void calculation() {
-        double balance =18000;
+    public void calculation() {
+        double balance =100;
         double interest=12.5;
         System.out.println("the interest rate is "+(balance*interest)/100);
     }
@@ -20,8 +21,8 @@ class Visa extends CreditClass{
 }
 class AX extends CreditClass{
     @Override
-    void calculation() {
-        double balance =1500;
+  public void calculation() {
+        double balance =100;
         double interest=8.5;
         System.out.println("the interest rate is "+(balance*interest)/100);
 

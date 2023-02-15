@@ -9,10 +9,18 @@ public class Teacher {
     String name;
     int age;
     int id;
-    private String password;
-    void printInfo(){
-        System.out.println("My name is "+name+" age "+age+" my id is "+id+" and password is "+password);
+    void printInfo(){ //behaviour1
+        System.out.println("My name is "+name+" age "+age+" my id is "+id);
     }
+   void grade(){
+       System.out.println("grade doesn't matter");
+   }
+   void homework(){
+       System.out.println("homework makes student perfect!!!");
+   }
+   void extrapoint(){
+       System.out.println("if al students attend class get extra marks");
+   }
 }
 class MathTeacher extends Teacher{
     String subject;

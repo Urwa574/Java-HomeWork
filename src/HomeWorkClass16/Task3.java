@@ -7,11 +7,12 @@ public class Task3 {
      */
 
   private String vowels(String vow){
-      System.out.println(vow.replaceAll("[^aeiou]",""));
-      return vow;
+      System.out.println(vow.replaceAll("[^aeiou]","")); //here we trying to remove from input all letters other than vowels thats y we use replaceAll method
+      return vow; //^ is use to write not called carot
   }
     public static void main(String[] args) {
         Task3 task=new Task3();
         System.out.println(task.vowels("hello"));
+        // we can also use static method with private and in main method we can directly call by method name which is vowels("hello");
     }
 }

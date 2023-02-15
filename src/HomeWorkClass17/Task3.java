@@ -8,7 +8,7 @@ public class Task3 {
      String name;
      String phoneNO;
     int year;
-   protected double marks;
+   double marks;
     char gender;
     //def
     Task3 (char Gender){
