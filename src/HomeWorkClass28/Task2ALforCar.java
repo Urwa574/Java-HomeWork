@@ -14,9 +14,10 @@ public class Task2ALforCar {
         for (int i = 0; i < cars.size(); i++) {
             System.out.print(cars.get(i));
         }
-        System.out.println("**********");
+        System.out.println("**********"); //shortcut iter and it will print enhance loop for us
         for (String c:cars){
             System.out.println(cars);
         }
+
     }
 }

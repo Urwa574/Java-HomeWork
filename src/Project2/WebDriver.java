@@ -5,7 +5,7 @@ public interface WebDriver {
     void close();
     String getTitle();
 }
-interface RemoteDriver extends WebDriver {
+interface RemoteDriver extends WebDriver { //change according asghar's
     void navigate();
     @Override
     void open();

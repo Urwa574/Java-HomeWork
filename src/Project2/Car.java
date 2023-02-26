@@ -15,6 +15,7 @@ discount, otherwise 10% discount
     String color;
 
    void calculateSalePrice(){
+
      double price;
 carPrice=80000;
      price=carPrice*0.675; 
